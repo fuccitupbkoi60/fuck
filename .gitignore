@@ -1,6 +1,98 @@
+
 composer.phar
 /vendor/
 
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
+  * @method boolean isPhablet()
+
+
+  * @method boolean isConsole()
+
+
+  * @method boolean isPortableMediaPlayer()
+
+
+  * @method boolean isCarBrowser()
+
+
+  * @method boolean isTV()
+
+
+  * @method boolean isSmartDisplay()
+
+
+  * @method boolean isCamera()
+
+
+  *
+
+
+  * Magic Client Type Methods
+
+
+  * @method boolean isBrowser()
+
+
+  * @method boolean isFeedReader()
+
+
+  * @method boolean isMobileApp()
+
+
+  * @method boolean isPIM()
+
+
+  * @method boolean isLibrary()
+
+
+  * @method boolean isMediaPlayer()
+
+
+  *
+
+
+  * @package DeviceDetector
+
+
+  */
+
+
+ class DeviceDetector
+
+
+ {
+
+
+ 
+     /** 
+
+
+ 
+      * Current version number of DeviceDetector 
+
+
+ 
+      */ 
+
+
+ 
+-    const VERSION = '3.8.0'; 
+
+
+ 
++    const VERSION = '3.8.1'; 
+
+
+ 
+  
+
+
+ 
+     /** 
+
+
+ 
+      * Holds all registered client types 
+ 
